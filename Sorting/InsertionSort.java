@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class InsertionSort 
 { 
 
-  public static void Sort(int A[], int L, int R) 
+  public static void Sort(int A[]) 
   { 
       for(int i=1;i<A.length;i++){
 
@@ -29,7 +29,7 @@ public class InsertionSort
         for(int i =0;i<N;i++){
           A[i] = sc.nextInt();  
         }
-	 Sort(A,0,N-1);
+	 Sort(A);
          for(int i=0;i<N;i++){ 
           System.out.print(A[i]);
          
