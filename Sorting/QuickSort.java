@@ -49,5 +49,4 @@ public class QuickSort
           System.out.print(A[i]);
          
          } 
-   } 
 } 
